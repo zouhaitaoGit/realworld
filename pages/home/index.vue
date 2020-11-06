@@ -3,13 +3,13 @@
 
     <div class="banner">
       <div class="container">
-        <h1 class="logo-font">拉勾教育</h1>
+        <h1 class="logo-font">欢欢的网站</h1>
         <p>A place to share your knowledge.</p>
       </div>
     </div>
 
     <div class="container page">
-      <div class="row">
+      <div class="row" v-if="0">
 
         <div class="col-md-9">
           <div class="feed-toggle">
@@ -112,7 +112,7 @@
           </div>
 
           <!-- 分页列表 -->
-          <nav>
+          <!-- <nav>
             <ul class="pagination">
               <li
                 class="page-item"
@@ -135,7 +135,7 @@
                 >{{ item }}</nuxt-link>
               </li>
             </ul>
-          </nav>
+          </nav> -->
           <!-- /分页列表 -->
 
         </div>
@@ -144,7 +144,7 @@
           <div class="sidebar">
             <p>Popular Tags</p>
 
-            <div class="tag-list">
+            <!-- <div class="tag-list">
               <nuxt-link
                 :to="{
                   name: 'home',
@@ -157,7 +157,7 @@
                 v-for="item in tags"
                 :key="item"
               >{{ item }}</nuxt-link>
-            </div>
+            </div> -->
           </div>
         </div>
 
