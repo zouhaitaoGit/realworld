@@ -3,7 +3,7 @@
 
     <div class="banner">
       <div class="container">
-        <h1 class="logo-font">欢欢的网站</h1>
+        <h1 class="logo-font">欢欢的第一个网站</h1>
         <p>A place to share your knowledge.</p>
       </div>
     </div>
